@@ -1,0 +1,2 @@
+# jatekprogspeci
+ELTE IK

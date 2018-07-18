@@ -13,11 +13,11 @@ var endy=2;
 setInterval(function(){
     x+=endx;
     y+=endy;
-    if (y>=canvas.height || y<=0){
+    if (y>=canvas.height-100 || y<=0){
         endy=-endy;
 
     }
-    if (x>=canvas.width || x<=0){
+    if (x>=canvas.width-200 || x<=0){
         endx=-endx;
 
     }
